@@ -27,10 +27,9 @@
                         <ul class="list-unstyled">
                             <li><a target="_blank" href="https://ryanligod.github.io/2018/11/15/2018-11-15%20%E4%BD%BF%E7%94%A8%20jQuery%20%E5%AE%9E%E7%8E%B0%20Solr%20%E6%90%9C%E7%B4%A2%E7%9A%84%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E5%B1%95%E7%A4%BA/"
                                     class="text-white">本页面的讲解</a></li>
-                            <li>
-                                <a target="_blank" href="https://getbootstrap.com/" class="text-white">Bootstrap 4</a>
-                            </li>
-                            <li></li>
+                            <li><a target="_blank" href="https://github.com/RyanLiGod/Solr-web" class="text-white">本项目的 Github 地址</a></li>
+                            <li><a target="_blank" href="https://callmejiagu.github.io/categories/Solr/" class="text-white">Solr 讲解</a></li>
+                            <li><a target="_blank" href="https://getbootstrap.com/" class="text-white">Bootstrap 4</a></li>
                             <li><a target="_blank" href="https://jquery.com/" class="text-white">jQuery</a></li>
                         </ul>
                     </div>
@@ -61,7 +60,9 @@
                     <div class="input-group-append">
                         <button id="searchPaper" class="btn btn-outline-secondary px-4" type="button">搜索</button>
                     </div>
-                    <div id="suggestList" class="list-group position-absolute"></div>
+                    <div id="suggestList" class="list-group position-absolute">
+                            <!-- 每一条结果将会用jQuery插入到这里 -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -69,14 +70,7 @@
         <div id="resultSection" class="py-5 bg-light">
             <div class="container">
                 <div class="row" id="result">
-                    <!-- <div class='col-md-12 mb-4'>
-                        <div class='card mb-12 shadow-sm'>
-                            <div class='card-body'>
-                                <h5>论文标题</h5>
-                                <p class='text-muted card-text'>作者</p>
-                            </div>
-                        </div>
-                    </div> -->
+                    <!-- 每一条结果将会用jQuery插入到这里 -->
                 </div>
             </div>
         </div>

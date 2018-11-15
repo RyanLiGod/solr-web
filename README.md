@@ -20,7 +20,7 @@ Bootstrap 是一个用于使用 HTML，CSS 和 JS 进行开发的开源工具包
 
 ### Iconfont —— 阿里巴巴矢量图片库
 
-Iconfont 中可以找到很多简约好用的矢量图，这次我们使用了其中的搜索图标。
+[Iconfont](http://www.iconfont.cn) 中可以找到很多简约好用的矢量图，这次我们使用了其中的搜索图标。
 
 ## 项目结构
 

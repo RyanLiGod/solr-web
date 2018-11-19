@@ -15,6 +15,7 @@ def search():
     rst.headers['Access-Control-Allow-Origin'] = '*'
     return rst
 
+
 @app.route('/suggest')
 def suggest():
     key = request.args.get('key')
